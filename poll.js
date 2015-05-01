@@ -17,3 +17,11 @@ function firebaseTest() {
   });
   
 }
+
+function getFormData(){ 
+  var val1=document.getElementById('poll1').value;
+  var val2=document.getElementById('poll2').value;
+  /* some other fields */
+  /* now call ur function by passing the above values */
+  console.log("val1: " + val1 + ", val2:" + val2);
+}
