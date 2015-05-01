@@ -13,7 +13,6 @@ function firebaseTest() {
   });
   
   myFirebaseRef.child("location/city").on("value", function(snapshot) {
-    //alert(snapshot.val());  // Alerts "San Francisco"
     console.log(snapshot.val());
   });
   
