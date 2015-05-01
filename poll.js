@@ -16,4 +16,5 @@ function firebaseTest() {
     alert(snapshot.val());  // Alerts "San Francisco"
     console.log(snapshot.val());
   });
+  
 }
